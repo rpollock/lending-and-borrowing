@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  font-family: 'manrope', sans-serif;
+}
+
+div.hero {
+  height: 80vh !important;
+  align-content: center;
+}
+
+.wri {
+  align-content: center;
+}
+
+.hero-head {
+  font-family: 'manrope','Manrope Placeholder' sans-serif;
+  font-weight: 900;
+  text-transform: lowercase;
+  font-size: 64px;
+}
+
+.canvas {
+  height: 400px !important;
+}
+
+.btn-prim {
+  margin-left: 10px !important;
+  margin-top: 10px!important;
+  background-color: transparent!important;
+  border: solid 3px !important;
+  border-color: blue!important;
+  box-shadow: none!important;
+  color: black!important;
+}
+
+.btn-prim:hover {
+  border-color: rgb(3, 181, 3) !important;
 }
